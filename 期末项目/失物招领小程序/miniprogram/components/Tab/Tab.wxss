@@ -1,0 +1,29 @@
+
+.tab {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.tab-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30rpx 0;
+    position: relative;
+    color: #0070c0;
+}
+
+.tab-line {
+    position: absolute;
+    width: 65%;
+    height: 0;
+    border: 5rpx solid #0070c0;
+    bottom: 0;
+}
+
+.tab-default {
+    color: #000000;
+    background-color: #e0e0e0;
+}

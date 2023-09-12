@@ -1,0 +1,81 @@
+.banner {
+    height: 55vh;
+}
+
+.banner-image {
+    width: 100%;
+    height: 55vh;
+}
+
+.name {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20rpx;
+    padding: 20rpx;
+    font-weight: bold;
+    color: #0070c0;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20rpx;
+}
+
+.container .item {
+    padding: 20rpx;
+    display: flex;
+    align-items: center;
+}
+
+.container .item .label {
+    width: 70rpx;
+    color: #0070c0;
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-right: 20rpx;
+}
+
+.bottom {
+    display: flex;
+    background-color: #70baff;
+    justify-content: space-between;
+    margin-top: 20rpx;
+    padding: 20rpx 40rpx;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    bottom: 20rpx;
+}
+
+.bottom .bottom-left {
+    display: flex;
+    align-items: center;
+    background-color: #0070c0;
+    border-radius: 30rpx;
+    padding: 10rpx;
+    padding-left: 100rpx;
+    width: 70%;
+    color: #ffffff;
+}
+
+.bottom .bottom-left .icon-contact {
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 20rpx;
+    margin-right: 10rpx;
+}
+
+.bottom .bottom-right .icon-collection {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.bottom .bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body {
+    position: relative;
+    padding-bottom: 160rpx;
+}
